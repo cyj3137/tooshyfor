@@ -46,9 +46,6 @@
 </head>
 <body>
 
-    
-    <div class="shy" id="shy"><img src="shytitle.png" alt="grass"></div>
-    <div class="grass"></div>
     <div class="human" id="a1"><img src="p1.png" alt="Human 1"></div>
     <div class="human" id="a2"><img src="p2.png" alt="Human 2"></div>
     <div class="human" id="a3"><img src="p3.png" alt="Human 3"></div>
@@ -64,6 +61,89 @@
     <div class="human" id="a11"><img src="p11.png" alt="Human 11"></div>
     <div class="grass2" id="grass2"><img src="windyy.gif" alt="grass"></div>
     <div class="brick2" id="brick2"><img src="brickss.jpg" alt="grass"></div>
+
+    <script>
+        // Function to handle the click event on human images
+        function handleHumanClick(humanId) {
+            // Redirect to another page based on the clicked human
+            switch (humanId) {
+                case 'a1':
+                    window.location.href = 'indexp3.html'; // Change 'page1.html' to the actual URL you want to redirect to
+                    break;
+                case 'a2':
+                    window.location.href = 'indexp3.html'; // Change 'page2.html' to the actual URL you want to redirect to
+                    break;
+                case 'a3':
+                    window.location.href = 'indexp3.html'; // Change 'page2.html' to the actual URL you want to redirect to
+                    break;  
+                case 'a4':
+                    window.location.href = 'indexp3.html'; // Change 'page2.html' to the actual URL you want to redirect to
+                    break; 
+                case 'a5':
+                    window.location.href = 'indexp3.html'; // Change 'page2.html' to the actual URL you want to redirect to
+                    break; 
+                case 'a6':
+                    window.location.href = 'indexp3.html'; // Change 'page2.html' to the actual URL you want to redirect to
+                    break; 
+                case 'a7':
+                    window.location.href = 'indexp3.html'; // Change 'page2.html' to the actual URL you want to redirect to
+                    break; 
+                case 'a8':
+                    window.location.href = 'indexp3.html'; // Change 'page2.html' to the actual URL you want to redirect to
+                    break; 
+                case 'a9':
+                    window.location.href = 'indexp3.html'; // Change 'page2.html' to the actual URL you want to redirect to
+                    break; 
+                case 'a10':
+                    window.location.href = 'indexp3.html'; // Change 'page2.html' to the actual URL you want to redirect to
+                    break; 
+                case 'a11':
+                    window.location.href = 'indexp3.html'; // Change 'page2.html' to the actual URL you want to redirect to
+                    break; 
+                // Add more cases for other humans as needed
+                default:
+                    break;
+            }
+        }
+
+        // Add click event listeners to each human element
+        document.getElementById('a1').addEventListener('click', function() {
+            handleHumanClick('a1');
+        });
+        document.getElementById('a2').addEventListener('click', function() {
+            handleHumanClick('a2');
+        });
+         document.getElementById('a3').addEventListener('click', function() {
+            handleHumanClick('a3');
+        });
+         document.getElementById('a4').addEventListener('click', function() {
+            handleHumanClick('a4');
+        });
+         document.getElementById('a5').addEventListener('click', function() {
+            handleHumanClick('a5');
+        });
+         document.getElementById('a6').addEventListener('click', function() {
+            handleHumanClick('a6');
+        });
+         document.getElementById('a7').addEventListener('click', function() {
+            handleHumanClick('a7');
+        });
+         document.getElementById('a8').addEventListener('click', function() {
+            handleHumanClick('a8');
+        });
+         document.getElementById('a9').addEventListener('click', function() {
+            handleHumanClick('a9');
+        });
+         document.getElementById('a10').addEventListener('click', function() {
+            handleHumanClick('a10');
+        });
+         document.getElementById('a11').addEventListener('click', function() {
+            handleHumanClick('a11');
+        });
+        // Add similar lines for other humans
+
+        // Repeat the above process for each human element
+    </script>
 </body>
 </html>
 
